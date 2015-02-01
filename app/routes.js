@@ -6,7 +6,18 @@
   2. If your app does not have routes , simple export an empty object
       @example
         module.exports = {}
+
+  ----------------------------------------
+                EXAMPLE
+  ----------------------------------------
+  {
+    state: "home"
+    url: "/",
+    templateUrl: "templates/home.html",
+    controller: "homeController"
+  }
  */
+
 var routeMap;
 
 routeMap = [];
